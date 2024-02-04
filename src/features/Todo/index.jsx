@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import TodoList from './Todo/components/TodoList';
+import TodoList from './components/TodoList';
 
 TodoFeature.propTypes = {
 
@@ -13,7 +13,7 @@ function TodoFeature(props) {
             title: 'Eat'
         },
         {
-            id: 2,
+            id: 1,
             title: 'Sleep'
         },
         {
