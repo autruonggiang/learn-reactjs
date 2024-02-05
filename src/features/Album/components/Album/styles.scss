@@ -1,12 +1,12 @@
 .album {
-    &_thumbnail {
+    &__thumbnail {
         & > img {
             border-radius: 0.5rem;
             width: 160px;
         }
     }
 
-    &_name {
+    &__name {
         font-weight: bold;
     }
 }

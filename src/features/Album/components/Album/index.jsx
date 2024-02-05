@@ -9,13 +9,13 @@ Album.propTypes = {
 function Album({ album }) {
     return (
         <div className="album">
-            <div className="album_thumbnail">
+            <div className="album__thumbnail">
                 <img src={album.thumbnailUrl} alt={album.name} />
 
                 {/* Other controls */}
             </div>
 
-            <p className="album_name">{album.name}</p>
+            <p className="album__name">{album.name}</p>
         </div >
     );
 }
