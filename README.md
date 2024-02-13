@@ -4,16 +4,18 @@
 
 ```
 src
-|__ components (shared components between features)
-| |__ Loading
-|   |__ index.jsx
-|   |__ styles.scss
+├── components (shared components between features)
+│   ├── Loading
+│   │   ├── index.jsx
+│   │   ├── styles.scss
+│   │   ├── ...
 |
-|__ features
-| |__ Todo
-|   |__ components (components of feature Todo)
-|   |__ pages (pages of feature Todo)
-|   |__ index.jsx (entry point of feature Todo)
+├── features
+│   ├── Todo
+│   │   ├── components (components of feature Todo)
+│   │   ├── pages (pages of feature Todo)
+│   │   ├── index.jsx (entry point of feature Todo)
+│   │   ├── ...
 |
-|__ App.js
+└── App.js
 ```
